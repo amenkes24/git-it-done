@@ -6,6 +6,7 @@ var repoSearchTerm = document.querySelector("#repo-search-term");
 
 var formSubmitHandler = function(event) {
     event.preventDefault();
+    
     // get value from input element
     var username = nameInputEl.value.trim();
 
